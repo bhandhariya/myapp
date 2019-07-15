@@ -10,7 +10,7 @@ export class AppComponent {
   title = 'myapp';
   constructor(private http:HttpClient){}
   run(){
-    this.http.get('/user').subscribe(r=>{
+    this.http.get('/api/user').subscribe(r=>{
       console.log(r)
     })
   }
