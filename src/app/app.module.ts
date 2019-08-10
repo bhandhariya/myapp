@@ -14,13 +14,23 @@ import { AngularFireModule } from "@angular/fire";
 import { AngularFireAuthModule } from "@angular/fire/auth";
 import { AngularFireDatabaseModule } from "@angular/fire/database";
 import { AngularFireStorageModule } from "@angular/fire/storage";
+import { HeaderComponent } from './shared/header/header.component';
+import { BlogComponent } from './blog/blog.component';
+import { ContactComponent } from './contact/contact.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { FeatureComponent } from './feature/feature.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    HeaderComponent,
+    BlogComponent,
+    ContactComponent,
+    PortfolioComponent,
+    FeatureComponent
   ],
   imports: [
     BrowserModule,
